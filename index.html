@@ -15,120 +15,188 @@
     <title>Alexander Rolle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="alexanderrolle_files/fstyle.css">
+  
+  <style>
+    .bio_div {
+      width: 650px;
+      height: 300px;
+    }
+  </style>
+  <style>
+    .research_image_div {
+      width: 400px;
+      height: 420px;
+      margin-top: 0px;
+      margin-bottom: 0pt;
+      float: left;
+    }
+  </style>
+  <style>
+    .research_caption_div {
+      width: 550px;
+      height: 420px;
+      float: right;
+    }
+  </style>
+  <style>
+    .dr_image_div {
+      width: 400px;
+      height: 420px;
+      margin-top: 0px;
+      margin-bottom: 0pt;
+      float: left;
+    }
+  </style>
   </head>
 
 <body bgcolor="#ffffff">
 
 <h1>Alexander Rolle</h1>
 
-<img src="alexanderrolle_files/alexanderrolle.jpg" alt="Alexander Rolle" align="right" style="width:300px;height:300px;">
+<img src="alexanderrolle_files/2-square.jpg" alt="Alexander Rolle" align="right" style="width:300px;height:300px;">
 
-<h2>Short biography</h2>
+<div class="bio_div">
+  <p>I am a postdoctoral researcher in the Mathematics department at 
+  <a href="https://www.tum.de/en/">The Technical University of Munich</a>, 
+  Germany, working with 
+  <a href="https://ulrich-bauer.org/">Ulrich Bauer</a>. 
+  </p>
 
-I am a postdoctoral researcher in the Mathematics department at 
-<a href="https://www.tum.de/en/">The Technical University of Munich</a>, 
-working with 
-<a href="https://ulrich-bauer.org/">Ulrich Bauer</a>. 
-From September 2019 to September 2021 I was a postdoc with 
-<a href="http://www.geometrie.tugraz.at/kerber/">Michael Kerber</a> 
-at TU Graz, Austria. 
-In August 2019 I finished a PhD in Mathematics at 
-The University of Western Ontario, Canada, supervised by 
-<a href="https://www.uwo.ca/math/faculty/jardine/">Rick Jardine</a>.
+  <p>Previously, I was a postdoc in the research group of 
+  <a href="http://www.geometrie.tugraz.at/kerber/">Michael Kerber</a> 
+  at TU Graz, Austria. 
+  Before that, I finished a PhD in Mathematics at 
+  The University of Western Ontario, Canada, supervised by 
+  <a href="https://www.uwo.ca/math/faculty/jardine/">Rick Jardine</a>.</p>
 
-<h2>Research interests</h2>
+  <p>My research interests are in applied and computational topology, 
+  especially applications to data analysis and machine learning.
+  </p>
 
-My research interests are in applied topology, especially applications to statistics, data analysis, and machine learning.
+  <p> For a complete list of publications, see my 
+  <a href="https://scholar.google.com/citations?user=s2Ryy2cAAAAJ&hl=en&oi=ao">Google scholar page</a>.
+  </p>
+</div>
 
-<h2>Publications and preprints</h2>
+<h2>Recent research projects</h2>
 
-<ul>
+<h3>Persistable: persistent and stable clustering</h3>
 
-  <li>
-    Topological analysis of 3D digital ovules identifies cellular patterns associated with ovule shape diversity, 
-    with Tejasvinee Atul Mody, Nico Stucki, Fabian Roll, Ulrich Bauer, and Kay Schneitz (2024). 
-    <i>Development</i>. 
-    Available at 
-    <a href="https://journals.biologists.com/dev/article/doi/10.1242/dev.202590/347297">Development</a>.
-  </li>
+<div class="clearfix">
+<div class="research_image_div">
+  <img src="alexanderrolle_files/Persistable-ccf.jpg" alt="Persistable" align="left" style="width:396px;height:331px;margin:30px;">
+</div>
 
-  <li>
-    Persistable: persistent and stable clustering, with Luis Scoccola (2023). 
-    <i>Journal of Open Source Software</i>. Available at 
+<div class="research_caption_div">
+  <p> Persistable is an open-source Python library that combines 
+    innovative hierarchical clustering algorithms with visualization tools 
+    from topological data analysis. 
+    With these tools, the user can tune parameters in an informed way, 
+    and get reliable clusterings that reflect stable features of the data. 
+    Persistable includes theoretically-justified approximation algorithms 
+    that provide massive reductions in memory usage compared to 
+    similar clustering methods.</p>
+
+  <p> Persistable is joint work with 
+    <a href="https://luisscoccola.com/">Luis Scoccola</a>.
+  </p>
+
+  <p> For an introduction to Persistable, see the 
+    <a href="https://persistable.readthedocs.io/en/latest/introductiontopersistable.html">documentation</a>.
+    The theory behind Persistable was developed in our paper 
+    <a href="https://arxiv.org/abs/2005.09048">Stable and consistent density-based clustering via multiparameter persistence</a>, 
+    and the software is described in a paper in 
     <a href="https://joss.theoj.org/papers/10.21105/joss.05022">JOSS</a>.
-  </li>
+</p> 
+</div>
+</div>
 
-  <li>
-    Compression for 2-parameter persistent homology, with Michael Kerber and Ulderico Fugacci (2023). 
-    <i>Computational Geometry</i>. Available at 
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925772122000839">ScienceDirect</a> (open access) and 
-    <a href="https://arxiv.org/abs/2107.10924">arXiv</a>.
-  </li>
+<h3>mpfree: fast minimal presentations for 2-parameter persistent homology</h3>
 
-  <li>
-    A unified view on the functorial nerve theorem and its variations, with Ulrich Bauer, Michael Kerber, and Fabian Roll (2023).
-    <i>Expositiones Mathematicae</i>. Available at
-    <a href="https://www.sciencedirect.com/science/article/pii/S0723086923000415">ScienceDirect</a> and 
-    <a href="https://arxiv.org/abs/2203.03571">arXiv</a>.
-  </li>
+<div class="clearfix">
+<div class="research_image_div">
+  <img src="alexanderrolle_files/bifiltration-square.jpg" alt="bifiltration" align="left" style="width:356px;height:356px;margin:30px;">
+</div>
 
-  <li>
-    The degree-Rips complexes of an annulus with outliers (2022). SoCG 2022. Available at 
-    <a href="https://drops.dagstuhl.de/opus/volltexte/2022/16066/">DROPS</a> and 
-    <a href="https://arxiv.org/abs/2203.08767">arXiv</a>.
-  </li>
+<div class="research_caption_div">
+  <p> mpfree computes minimal presentations of two-parameter persistent homology. 
+    Multi-parameter persistent homology is a major topic of current research 
+    in topological data analysis: 
+    using multiple parameters makes it possible to analyze more complex scientific data, 
+    but also introduces challenges, especially for computation. 
+    A minimal presentation is a kind of compressed representation 
+    of a multi-parameter persistence module: 
+    this is desirable since input sizes in multi-parameter persistence tend to be huge.
+  </p>
 
-  <li>
-    Fast minimal presentations of bi-graded persistence modules, with Michael Kerber (2021). ALENEX 2021. Available at 
-    <a href="https://epubs.siam.org/doi/abs/10.1137/1.9781611976472.16?mobileUi=0">siam</a> and 
-    <a href="https://arxiv.org/abs/2010.15623">arXiv</a>.
-  </li>
+  <p> mpfree is joint work with 
+    <a href="http://www.geometrie.tugraz.at/kerber/">Michael Kerber</a>. 
+    Our algorithm is an accelerated version of the method of 
+    <a href="https://doi.org/10.1137/20M1388425">Lesnick and Wright</a>.
+  </p>
 
-  <li>
-    Multi-parameter hierarchical clustering and beyond (extended abstract) (2020). 
-    Topological Data Analysis and Beyond Workshop at NeurIPS 2020. 
-    Available at <a href="https://openreview.net/pdf?id=g0-tBxQTPRy">OpenReview</a>.
-  </li>
+  <p> mpfree is available 
+    <a href="https://bitbucket.org/mkerber/mpfree/">here</a>. 
+    We published our work on mpfree at 
+    <a href="https://doi.org/10.1137/1.9781611976472.16">ALENEX 2021</a>.
+</p> 
+</div>
+</div>
 
-  <li>
-    Stable and consistent density-based clustering, with Luis Scoccola (2020). 
-    Preprint. Available at 
-    <a href="https://arxiv.org/abs/2005.09048">arXiv</a>.
-  </li>
+<h3>Topological analysis of 3D digital ovules</h3>
 
-  <li>
-    Torsors over simplicial schemes (2019). PhD thesis. Available 
-    <a href="https://ir.lib.uwo.ca/etd/6312/">here</a>.
-  </li>
+<div class="clearfix">
+<div class="research_image_div">
+  <img src="alexanderrolle_files/nerve-square.jpg" alt="nerve" align="left" style="width:356px;height:356px;margin:30px;">
+</div>
 
-  <li>
-    Central extensions and the classifying spaces of projective linear groups (2018). 
-    Preprint. Available at 
-    <a href="https://arxiv.org/abs/1810.07850">arXiv</a>.
-  </li>
+<div class="research_caption_div">
+  <p> A basic problem in plant biology is tissue morphogenesis, 
+    in particular, the problem of how the 3D cellular architecture of a developing organ 
+    contributes to its final shape. 
+    We use the nerve construction from computational topology to detect differences in cellular architecture 
+    between homologous tissues of different species.
+  </p>
 
-</ul>
+  <p> This is joint work with 
+    Nico Stucki, Fabian Roll, and Ulrich Bauer from the 
+    <a href="https://www.math.cit.tum.de/en/math/research/groups/geometry-and-topology/">Applied and Computational Topology group</a>
+    at TUM, and
+    Tejasvinee Atul Mody and Kay Schneitz from the 
+    <a href="https://www.mls.ls.tum.de/plantdev/home/">Plant Developmental Biology group</a> at TUM.
+  </p>
 
-<h2>Software</h2>
+  <p> Our paper is available at 
+    <a href="
+    https://doi.org/10.1242/dev.202590">Development</a>. 
+</p> 
+</div>
+</div>
 
-<ul>
+<h3>Homology inference for degree-Rips</h3>
 
-<li>
-mpfree, with Michael Kerber. 
-<a href="https://bitbucket.org/mkerber/mpfree/src/master/">Bitbucket</a>.
-<br>
-Fast software for computing minimal presentations of 2-parameter 
-persistence modules.
-</li>
+<div class="clearfix">
+<div class="dr_image_div">
+  <img src="alexanderrolle_files/sphere_regions.png" alt="sphere regions" align="left" style="width:356px;height:356px;">
+</div>
 
-<li>
-Persistable, with Luis Scoccola. 
-<a href="https://github.com/LuisScoccola/gamma-linkage">GitHub</a>.
-<br>
-Density-based clustering software with extensive visualization features.
-</li>
+<div class="research_caption_div">
+  <p> The degree-Rips bifiltration is a popular approach to density-sensitive 
+    multi-parameter persistent homology. 
+    Like the Vietoris-Rips filtration, this construction encodes the (geometric) shape of data, 
+    but in a way that is sensitive to density. 
+    Compared to Vietoris-Rips, the degree-Rips bifiltration is also more robust to noise and outliers in the input data. 
+    In order to make this precise, I computed the degree-Rips complexes of some probability spaces concentrated near an annulus. 
+    The figure shows the degree-Rips parameter space; 
+    the blue region is where we get the homotopy type of the circle, 
+    and the yellow region is where we get the homotopy type of the 3-sphere. 
+  </p>
 
-</ul>
+  <p> I published these computations at  
+    <a href="https://doi.org/10.4230/LIPIcs.SoCG.2022.58">SoCG</a>. 
+</p> 
+</div>
+</div>
 
 <h2>Recorded talks</h2>
 

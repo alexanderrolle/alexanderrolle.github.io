@@ -16,9 +16,13 @@ body {
                sans-serif; /* Everything else */;
   color: #444;
 }
-  
-h1,
-h2,
+
 h3 {
-  line-height:1.2;
+  padding: 20px 0px 0px 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
