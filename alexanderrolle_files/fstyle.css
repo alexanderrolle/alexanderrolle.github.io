@@ -1,8 +1,8 @@
 body {
   max-width: 1000px;
-  margin: 10px auto;
-  padding: 0 10px;
-  font: 18px/1.5 -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
+  margin: 1% auto;
+  padding: 0 1%;
+  font: 2vmin -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
                'avenir next', avenir, /* MacOS and iOS */
                'Segoe UI', /* Windows */
                'lucida grande', /* Older MacOS */
@@ -17,12 +17,63 @@ body {
   color: #444;
 }
 
-h3 {
-  padding: 20px 0px 0px 0px;
+h1 {
+  font-size: 4vmin;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+h2 {
+  font-size: 3vmin;
+}
+
+h3 {
+  font-size: 2vmin;
+}
+
+.flex-container-bio {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 0px;
+  /* border: 2px solid lawngreen; */
+}
+
+.flex-bio-left {
+  width: 70%;
+  padding: 0% 3% 0% 0%; /* top right bottom left */
+  /* border: 2px solid red;  */
+}
+
+.flex-bio-right {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  /* border: 2px solid green; */
+}
+
+.flex-container-first {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 0px;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 0px;
+  border-bottom: 2px solid gray;
+}
+
+.flex-left {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  /* padding: 60px 0px; */
+  /* border: 2px solid red;  */
+}
+
+.flex-right {
+  width: 70%;
+  padding: 0px 0px 0px 3%; /* top right bottom left */
+  /* border: 2px solid green; */
 }

@@ -13,49 +13,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <title>Alexander Rolle</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="alexanderrolle_files/fstyle.css">
-  
-  <style>
-    .bio_div {
-      width: 650px;
-      height: 300px;
-    }
-  </style>
-  <style>
-    .research_image_div {
-      width: 400px;
-      height: 420px;
-      margin-top: 0px;
-      margin-bottom: 0pt;
-      float: left;
-    }
-  </style>
-  <style>
-    .research_caption_div {
-      width: 550px;
-      height: 420px;
-      float: right;
-    }
-  </style>
-  <style>
-    .dr_image_div {
-      width: 400px;
-      height: 420px;
-      margin-top: 0px;
-      margin-bottom: 0pt;
-      float: left;
-    }
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="alexanderrolle_files/fstyle-test-2.css">
   </head>
 
 <body bgcolor="#ffffff">
 
 <h1>Alexander Rolle</h1>
 
-<img src="alexanderrolle_files/2-square.jpg" alt="Alexander Rolle" align="right" style="width:300px;height:300px;">
-
-<div class="bio_div">
+<div class="flex-container-bio">
+  <div class="flex-bio-left">
   <p>I am a postdoctoral researcher in the Mathematics department at 
   <a href="https://www.tum.de/en/">The Technical University of Munich</a>, 
   Germany, working with 
@@ -76,18 +43,20 @@
   <p> For a complete list of publications, see my 
   <a href="https://scholar.google.com/citations?user=s2Ryy2cAAAAJ&hl=en&oi=ao">Google scholar page</a>.
   </p>
+  </div>
+  <div class="flex-bio-right">
+    <img src="alexanderrolle_files/2-square.jpg" alt="Alexander Rolle" style="width:30vw;max-width:300px;height:30vw;max-height:300px;">
+  </div>
 </div>
 
 <h2>Recent research projects</h2>
 
-<h3>Persistable: persistent and stable clustering</h3>
-
-<div class="clearfix">
-<div class="research_image_div">
-  <img src="alexanderrolle_files/Persistable-ccf.jpg" alt="Persistable" align="left" style="width:396px;height:331px;margin:30px;">
-</div>
-
-<div class="research_caption_div">
+<div class="flex-container-first">
+  <div class="flex-left">
+  <img src="alexanderrolle_files/ccf-square.jpg" alt="Persistable" style="width:30vw;max-width:300px;height:30vw;max-height:300px;">
+  </div>
+  <div class="flex-right">
+  <h3>Persistable: persistent and stable clustering</h3>
   <p> Persistable is an open-source Python library that combines 
     innovative hierarchical clustering algorithms with visualization tools 
     from topological data analysis. 
@@ -107,18 +76,16 @@
     <a href="https://arxiv.org/abs/2005.09048">Stable and consistent density-based clustering via multiparameter persistence</a>, 
     and the software is described in a paper in 
     <a href="https://joss.theoj.org/papers/10.21105/joss.05022">JOSS</a>.
-</p> 
-</div>
-</div>
-
-<h3>mpfree: fast minimal presentations for 2-parameter persistent homology</h3>
-
-<div class="clearfix">
-<div class="research_image_div">
-  <img src="alexanderrolle_files/bifiltration-square.jpg" alt="bifiltration" align="left" style="width:356px;height:356px;margin:30px;">
+  </p>
+  </div>
 </div>
 
-<div class="research_caption_div">
+<div class="flex-container">
+  <div class="flex-left">
+  <img src="alexanderrolle_files/bifiltration-square.jpg" alt="bifiltration" style="width:30vw;max-width:300px;height:30vw;max-height:300px;">
+  </div>
+  <div class="flex-right">
+  <h3>mpfree: fast minimal presentations</h3>
   <p> mpfree computes minimal presentations of two-parameter persistent homology. 
     Multi-parameter persistent homology is a major topic of current research 
     in topological data analysis: 
@@ -139,18 +106,16 @@
     <a href="https://bitbucket.org/mkerber/mpfree/">here</a>. 
     We published our work on mpfree at 
     <a href="https://doi.org/10.1137/1.9781611976472.16">ALENEX 2021</a>.
-</p> 
-</div>
-</div>
-
-<h3>Topological analysis of 3D digital ovules</h3>
-
-<div class="clearfix">
-<div class="research_image_div">
-  <img src="alexanderrolle_files/nerve-square.jpg" alt="nerve" align="left" style="width:356px;height:356px;margin:30px;">
+  </p> 
+  </div>
 </div>
 
-<div class="research_caption_div">
+<div class="flex-container">
+  <div class="flex-left">
+  <img src="alexanderrolle_files/nerve-square.jpg" alt="nerve" style="width:30vw;max-width:300px;height:30vw;max-height:300px;">
+  </div>
+  <div class="flex-right">
+  <h3>Topological analysis of 3D digital ovules</h3>
   <p> A basic problem in plant biology is tissue morphogenesis, 
     in particular, the problem of how the 3D cellular architecture of a developing organ 
     contributes to its final shape. 
@@ -169,18 +134,16 @@
   <p> Our paper is available at 
     <a href="
     https://doi.org/10.1242/dev.202590">Development</a>. 
-</p> 
-</div>
-</div>
-
-<h3>Homology inference for degree-Rips</h3>
-
-<div class="clearfix">
-<div class="dr_image_div">
-  <img src="alexanderrolle_files/sphere_regions.png" alt="sphere regions" align="left" style="width:356px;height:356px;">
+  </p> 
+  </div>
 </div>
 
-<div class="research_caption_div">
+<div class="flex-container">
+  <div class="flex-left">
+  <img src="alexanderrolle_files/sphere_regions-cropped.jpg" alt="sphere regions" style="width:30vw;max-width:300px;height:30vw;max-height:300px;">
+  </div>
+  <div class="flex-right">
+  <h3>Homology inference for degree-Rips</h3>
   <p> The degree-Rips bifiltration is a popular approach to density-sensitive 
     multi-parameter persistent homology. 
     Like the Vietoris-Rips filtration, this construction encodes the (geometric) shape of data, 
@@ -194,8 +157,8 @@
 
   <p> I published these computations at  
     <a href="https://doi.org/10.4230/LIPIcs.SoCG.2022.58">SoCG</a>. 
-</p> 
-</div>
+  </p> 
+  </div>
 </div>
 
 <h2>Recorded talks</h2>
